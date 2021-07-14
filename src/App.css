@@ -2,10 +2,10 @@
   text-align: center;
 }
 
-.center {
+/* .center {
   display: flex;
   justify-content: center;
-}
+} */
 
 .particles {
   position: fixed;
@@ -16,7 +16,7 @@
   left: 0;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -49,4 +49,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
