@@ -18,7 +18,7 @@ const particlesOptions = {
       distance: 100,
       enable: true,
       opacity: 0.5,
-      width: 2,
+      width: 1,
     },
     collisions: {
       enable: true,
