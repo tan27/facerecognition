@@ -130,9 +130,6 @@ class App extends Component {
       <div className="App">
          <Particles 
          className='particles'
-         id="tsparticles"
-         init={this.particlesInit}
-         loaded={this.particlesLoaded}
          params={particlesOptions}
         />
         <Navigation isSignedIn={isSignedIn} onRouteChange={this.onRouteChange} />
