@@ -15,10 +15,10 @@ const particlesOptions = {
     },
     links: {
       color: "#ffffff",
-      distance: 150,
+      distance: 200,
       enable: true,
       opacity: 0.5,
-      width: 1,
+      width: 2,
     },
     collisions: {
       enable: true,
@@ -28,7 +28,7 @@ const particlesOptions = {
       enable: true,
       outMode: "bounce",
       random: false,
-      speed: 2,
+      speed: 4,
       straight: false,
     },
     number: {
