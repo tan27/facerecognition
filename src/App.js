@@ -15,7 +15,7 @@ const particlesOptions = {
     },
     links: {
       color: "#ffffff",
-      distance: 200,
+      distance: 100,
       enable: true,
       opacity: 0.5,
       width: 2,
