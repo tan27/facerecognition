@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
-// import Particles from 'react-particles-js';
 import Particles from "react-tsparticles";
 import FaceRecognition from './components/FaceRecognition/FaceRecognition';
 import Navigation from './components/Navigation/Navigation';
 import Signin from './components/Signin/Signin';
 import Register from './components/Register/Register';
-// import Logo from './components/Logo/Logo';
 import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm';
 import Rank from './components/Rank/Rank';
 import './App.css';
@@ -30,7 +28,7 @@ const particlesOptions = {
       enable: true,
       outMode: "bounce",
       random: false,
-      speed: 6,
+      speed: 2,
       straight: false,
     },
     number: {
@@ -158,7 +156,6 @@ class App extends Component {
         <Navigation isSignedIn={isSignedIn} onRouteChange={this.onRouteChange} />
         { route === 'home'
           ? <div>
-              {/* <Logo /> */}
               <Rank
                 name={this.state.user.name}
                 entries={this.state.user.entries}
